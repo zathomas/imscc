@@ -1,0 +1,4 @@
+FUN WITH IMS COMMON CARTRIDGE
+=============================
+
+    groovy imscc.groovy MyCartridgeFile.zip
