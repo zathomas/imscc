@@ -4,7 +4,7 @@ ant.unzip(  src:args[0],
             dest:dest,
             overwrite:"false" )
 
-def manifestPath = "${dest + File.separator}imsmanifest.xml"
+def manifestPath = "${dest}imsmanifest.xml"
 println "Reading manifest from $manifestPath"
 def manifest = new XmlSlurper().parse("${dest}imsmanifest.xml")
 
